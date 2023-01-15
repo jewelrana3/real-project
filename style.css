@@ -1,0 +1,130 @@
+/* ulities styles */
+
+/* header styles */
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 140px 0 128px;
+}
+
+.navbar-list {
+    display: flex;
+
+}
+
+.navbar-list li {
+    list-style-type: none;
+}
+
+.navbar-list a {
+    margin-left: 30px;
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+/* new brand styles */
+.new-brand-info {
+    text-align: center;
+    padding: 10px 329px 0;
+}
+
+.brand-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-bottom: 10px;
+    padding: 0 100px;
+}
+
+.brand-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 30px;
+}
+
+.btn {
+    background: #FF900E;
+    border-radius: 8px;
+    color: white;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    margin-top: 32px;
+}
+
+/* new-brand-image styles*/
+.new-brand-image {
+    margin-top: 70px;
+    padding: 0 120px;
+}
+
+.new-brand-image img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+/* main styles */
+
+/* features-our-team */
+.features-our-team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 100px;
+    margin-top: 85px;
+    align-items: center;
+}
+
+.features-image {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    padding: 10px 30px;
+    gap: 5px;
+    border-radius: 6px;
+}
+
+.features-image img {
+    width: 100%;
+}
+
+.features-info {}
+
+.features-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+    width: 400px;
+}
+
+.features-des {
+    font-weight: 400;
+    font-size: 16px;
+    width: 437px;
+    margin-top: 24px;
+}
+
+.Explore {
+    margin-top: 32px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: white;
+    padding: 20px 25px;
+    border:none;
+    font-weight: 600;
+font-size: 20px;
+}
+
+.of-our {
+    color: black;
+    font-weight: 700;
+}
+
+.features {
+    color: #FF900E;
+    font-weight: 700;
+}
