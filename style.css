@@ -143,14 +143,12 @@ header {
     position: relative;
 }
 
-.heading-bar {
-    
-}
-.enjoy-title::before{
-    content:'|';
-    color: red;
-    gap:20px;
-    
+.heading-bar {}
+
+.enjoy-title::before {
+    content: '|';
+    color: #FF900E;
+
 }
 
 .enjoy-title {
@@ -158,8 +156,7 @@ header {
     font-size: 45px;
     color: #131313;
     width: 400px;
-    /* padding-left: 10px; */
-    gap:10px;
+    gap: 10px;
 }
 
 .enjoy-des {
@@ -193,11 +190,6 @@ header {
     padding-right: 10px;
 }
 
-.image-stand {
-    /* position: absolute; */
-    /* margin-left: 300px; */
-}
-
 .image-stand img {
     position: relative;
     width: 550px;
@@ -207,14 +199,11 @@ header {
 
 .experince {
     position: absolute;
-    margin-top: 885px;
-    /* padding-right: 30px; */
+    margin-top: 907px;
     margin-left: -600px;
     margin-bottom: 5px;
     background: #FF900E;
     border-radius: 8px;
-    /* width: 185px;
-    height: 118px; */
     border: none;
     color: white;
     font-weight: 700;
@@ -222,17 +211,95 @@ header {
     padding: 38px 25px;
 
 }
-.experince .simple{
+
+.experince .simple {
     display: block;
-    font-size:15px;
+    font-size: 15px;
 }
 
-.ex-title {
-     ;
+/* Some Facts styles */
+.some-facts {
+    padding: 53px 100px 0;
+}
+
+.some-info {}
+
+/* .some-style { */
+/* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    justify-content: space-between;
+} */
+
+.some-image {
+    text-align: center;
+}
+
+.number {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.award {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.some-title {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.some-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 500px;
+}
+.flex-side{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 0 30px;
+}
+
+.some-style {
+    border: 1px solid black;
+    padding: 20px 30px;
+    width: 180px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.some-style-info li {
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.sumary {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-top: 9px;
+}
+
+.award {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin-top: 5px;
+}
+
+/* Our Sponspors styles */
+.our-sponspors{
+    text-align: center;
+    margin-top: 120px;
     
 }
-.ex-des{
-
-     
-    
+.our-spon{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding: 53px 100px 0;
 }
