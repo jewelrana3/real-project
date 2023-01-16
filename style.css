@@ -1,11 +1,11 @@
 /* ulities styles */
- 
-    p{
-        font-family: 'Work Sans';
+
+p {
+    font-family: 'Work Sans';
 
 
 
-    }
+}
 
 /* header styles */
 header {
@@ -38,7 +38,8 @@ header {
     text-align: center;
     padding: 10px 329px 0;
 }
-.title-div li{
+
+.title-div li {
     list-style-type: none;
     font-weight: 700;
     font-size: 64px;
@@ -97,7 +98,6 @@ header {
     width: 100%;
 }
 
-.features-info {}
 
 .features-title {
     font-weight: 500;
@@ -147,8 +147,6 @@ header {
 .features-our-team2-info {
     position: relative;
 }
-
-.heading-bar {}
 
 .enjoy-title::before {
     content: '|';
@@ -204,7 +202,7 @@ header {
 
 .experince {
     position: absolute;
-    margin-top: 907px;
+    margin-top: 820px;
     margin-left: -600px;
     margin-bottom: 5px;
     background: #FF900E;
@@ -226,15 +224,6 @@ header {
 .some-facts {
     padding: 53px 100px 0;
 }
-
-.some-info {}
-
-/* .some-style { */
-/* display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-    justify-content: space-between;
-} */
 
 .some-image {
     text-align: center;
@@ -261,7 +250,8 @@ header {
     color: #727272;
     width: 500px;
 }
-.flex-side{
+
+.flex-side {
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
@@ -275,6 +265,10 @@ header {
     border: 1px solid #FF900E;
     border-radius: 8px;
 }
+.some-style:hover{
+     box-shadow: 3px 9px 12px;
+}
+
 
 .some-style-info li {
     text-align: center;
@@ -297,49 +291,87 @@ header {
 }
 
 /* Our Sponspors styles */
-.our-sponspors{
+.our-sponspors {
     text-align: center;
     margin-top: 120px;
-    
+
 }
-.our-title{
+.sotify:hover{
+    box-shadow: 5px 11px 6px gray;
+}
+
+.our-title {
     font-weight: 700;
-font-size: 45px;
+    font-size: 45px;
 }
-.our-des{
+
+.our-des {
     width: 440px;
     margin-left: 453px;
     color: #727272;
 }
-.our-spon{
+
+.our-spon {
     display: flex;
     margin-top: 50px;
     justify-content: space-between;
     padding: 53px 100px 0;
 }
-.sotify img{
-    
-}
-.sopify{
-    color: #2EBD59;
-}
-.amazon{
-    color:#000000;
-}
-.google{
 
-}
-.telerama{
-    color:#000000; 
-}
-.figma{
-
-}
 /* footer styles */
-.footer-side{
+footer{
+     
+  padding: 100px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-side {
     text-align: center;
     background: #FFF4E7;
-border-radius: 8px;
-padding: 10px 20px;
-margin-top: 166px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-top: 166px;
+}
+
+/* media query styles */
+
+@media screen and (max-width:576px){
+     .navbar{
+        display: block;
+         
+     }
+    
+    .navbar-list{
+        display: flex;
+        flex-direction: column; 
+    }
+    .navbar-list a{
+     padding: 10px;
+    }
+     
+     .brand-title{
+        font-size: 30px;
+     }
+     .new-brand-image img{
+      flex-direction: column;
+     }
+      
+     .flex-side{
+        flex-direction: column;
+        gap:10px;
+        width: 100%;
+     }
+     .our-sponspors{
+       margin-right: 90px;
+     }
+     .our-des{
+        margin-right: 90px;
+     }
+     .our-spon{
+        flex-direction: column;
+        gap:30px;
+     }
+     .footer-side{
+       margin: 0 auto;
+     }
 }
