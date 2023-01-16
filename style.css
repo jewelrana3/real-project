@@ -1,4 +1,11 @@
 /* ulities styles */
+ 
+    p{
+        font-family: 'Work Sans';
+
+
+
+    }
 
 /* header styles */
 header {
@@ -31,13 +38,11 @@ header {
     text-align: center;
     padding: 10px 329px 0;
 }
-
-.brand-title {
+.title-div li{
+    list-style-type: none;
     font-weight: 700;
     font-size: 64px;
     color: #131313;
-    margin-bottom: 10px;
-    padding: 0 100px;
 }
 
 .brand-des {
@@ -297,9 +302,44 @@ header {
     margin-top: 120px;
     
 }
+.our-title{
+    font-weight: 700;
+font-size: 45px;
+}
+.our-des{
+    width: 440px;
+    margin-left: 453px;
+    color: #727272;
+}
 .our-spon{
     display: flex;
     margin-top: 50px;
     justify-content: space-between;
     padding: 53px 100px 0;
+}
+.sotify img{
+    
+}
+.sopify{
+    color: #2EBD59;
+}
+.amazon{
+    color:#000000;
+}
+.google{
+
+}
+.telerama{
+    color:#000000; 
+}
+.figma{
+
+}
+/* footer styles */
+.footer-side{
+    text-align: center;
+    background: #FFF4E7;
+border-radius: 8px;
+padding: 10px 20px;
+margin-top: 166px;
 }
